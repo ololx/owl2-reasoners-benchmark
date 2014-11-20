@@ -1,5 +1,6 @@
 # general exclude
 #!.gitignore
+!Libraries/*
 
 # all hidden files
 #.*

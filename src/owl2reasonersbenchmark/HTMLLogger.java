@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package owl2reasonersbenchmark;
 
 import java.io.File;
@@ -9,8 +5,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
+ * The type HTML Logger.
  *
- * @author Administrator
+ * @author Alexander A. Kropotin
+ * @project owl2-reasoners-benchmark
+ * @created 14.05.2014 09:43 <p>
  */
 public class HTMLLogger {
     private String path;

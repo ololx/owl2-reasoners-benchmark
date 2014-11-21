@@ -1,6 +1,6 @@
-# owl2-reasoner-benchmark
+# owl2-reasoners-benchmark
 
-This is ta console java application that allows the speed evaluating OWL 2 reasoners on a specified ontologies. This application was implemented in the evaluating owl 2 reasoning process for the ORE 2013 paper.
+This is ta console java application that allows the speed evaluating OWL 2 reasoners on a specified ontologies. This application was implemented in the evaluating owl 2 reasoning process for the `ORE 2014` paper.
 
 [![status](https://img.shields.io/badge/status-completed-inactive?style=flat-square)](BADGES_GUIDE.md#status) [![version](https://img.shields.io/badge/version-1.0.0-informational?style=flat-square)](BADGES_GUIDE.md#version) [![stable](https://img.shields.io/badge/stable-yes-important?style=flat-square)](BADGES_GUIDE.md#stable)  [![oss lifecycle](https://img.shields.io/badge/oss_lifecycle-archived-important?style=flat-square)](BADGES_GUIDE.md#oss-lifecycle) [![maintenance](https://img.shields.io/badge/maintenance-no-informational?style=flat-square)](BADGES_GUIDE.md#maintenance) [![latest release date](https://img.shields.io/badge/latest_release_date-June_25,_2014-informational?style=flat-square)](BADGES_GUIDE.md#release-date) [![last commit](https://img.shields.io/badge/last_commit-June_25,_2014-informational?style=flat-square)](BADGES_GUIDE.md#commit-date)
 
@@ -22,24 +22,24 @@ This is ta console java application that allows the speed evaluating OWL 2 reaso
 
 ##  📖 About
 
-This is ta console java application that allows the speed evaluating OWL 2 reasoners on a specified ontologies. This application was implemented in the evaluating owl 2 reasoning process for the ORE 2013 paper.
+This is ta console java application that allows the speed evaluating OWL 2 reasoners on a specified ontologies. This application was implemented in the evaluating owl 2 reasoning process for the `ORE 2014` paper.
 
 ### Motivation
 
-During developing a model for representing the relational databases semantics in DL axioms and assetions, it was necessary to evaluate the reasoning speed of such a solution. This benchmark was developed and allowed to evaluate the reasoning speed of OWL 2 reasoners (such as TReasoner, Hermit, Fact++). The results of this evaluating were presented at ORE 2013 in this article http://ceur-ws.org/Vol-1207/paper_8.pdf.
+During developing a model for representing the relational databases semantics in DL axioms and assetions, it was necessary to evaluate the reasoning speed of such a solution. This benchmark was developed and allowed to evaluate the reasoning speed of OWL 2 reasoners (such as TReasoner, Hermit, Fact++). The results of this evaluating were presented at `OWL Reasoner Evaluation Workshop 2014` in this article http://ceur-ws.org/Vol-1207/paper_8.pdf.
 
 ## 📸 Demo
 
 These pictures demonstrate the benchmark results examples (time in ns).
 
 - The results in `*.xls`:
-![The results in excel](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-2.png?raw=true)
+![The results in xls](https://github.com/ololx/owl2-reasoners-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-2.png?raw=true)
 
 - The log output in `*.html`:
-![The log in html](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-3.png?raw=true)
+![The log in html](https://github.com/ololx/owl2-reasoners-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-3.png?raw=true)
 
 - The log in console/terminal:
-![The log in console/terminal](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-1.png?raw=true)
+![The log in console/terminal](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoners-benchmark-demo-1.png?raw=true)
 
 ## 🎚 Features
 
@@ -66,7 +66,7 @@ In order to install it is quite simple to clone or download this repository.
 For the cloning this repository to a local machine, just use the follows link:
 
 ```http
-https://github.com/ololx/owl2-reasoner-benchmark
+https://github.com/ololx/owl2-reasoners-benchmark
 ```
 
 ### Using
@@ -93,12 +93,11 @@ DELAY_BETWEEN_ITERATION = 17
 ### Launching
 
 - Firstly, it is necessary to put ontologies in the directory defined as `TEST_DIR` in `cfg.ini`.
-![The input dir with test data](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-input.png?raw=true)
-
+![The input dir with test data](https://github.com/ololx/owl2-reasoners-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-input.png?raw=true)
 - To execute this benchmark.
 
 - After execution the benchmark results will be in the directory defined as `RESULTS_DIR` in `cfg.ini`. 
-![The input dir with test data](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-output.png?raw=true)
+![The output dir with results](https://github.com/ololx/owl2-reasoners-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-output.png?raw=true)
 
 ## 🎉 Contributing
 

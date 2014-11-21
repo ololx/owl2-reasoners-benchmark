@@ -30,7 +30,16 @@ During developing a model for representing the relational databases semantics in
 
 ## 📸 Demo
 
+These pictures demonstrate the benchmark results examples (time in ns).
 
+- The results in `*.xls`:
+![The results in excel](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-2.png?raw=true)
+
+- The log output in `*.html`:
+![The log in html](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-3.png?raw=true)
+
+- The log in console/terminal:
+![The log in console/terminal](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-1.png?raw=true)
 
 ## 🎚 Features
 
@@ -48,7 +57,48 @@ During developing a model for representing the relational databases semantics in
 
 These instructions allow to get a copy of this project and run it on a local machine.
 
+### Installing
 
+In order to install it is quite simple to clone or download this repository.
+
+### Cloning
+
+For the cloning this repository to a local machine, just use the follows link:
+
+```http
+https://github.com/ololx/owl2-reasoner-benchmark
+```
+
+### Using
+
+To use it is necessary to:
+1 - Build the project (via IDE tools or Ant).
+2 - Configure the `OWL2ReasonersBenchmark`.
+3 - Launch the `OWL2ReasonersBenchmark`.
+
+### Configuring
+
+It is possible to set test parameters (rezoners, folder with test data, folder for saving results, etc.) via the configuration file `cfg.ini`. The example of configurations is presented below:
+
+```cfg
+SEPARATOR = ;
+RESULTS_DIR = E:
+TEST_DIR = E:/q
+REASONERS_LIST = HErmit;Treasoner
+REASONING_LIST = CONSISTENT
+TEST_ITERATION = 1
+DELAY_BETWEEN_ITERATION = 17
+```
+
+### Launching
+
+- Firstly, it is necessary to put ontologies in the directory defined as `TEST_DIR` in `cfg.ini`.
+![The input dir with test data](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-input.png?raw=true)
+
+- To execute this benchmark.
+
+- After execution the benchmark results will be in the directory defined as `RESULTS_DIR` in `cfg.ini`. 
+![The input dir with test data](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-output.png?raw=true)
 
 ## 🎉 Contributing
 

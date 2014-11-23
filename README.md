@@ -14,6 +14,7 @@ This is ta console java application that allows the speed evaluating OWL 2 reaso
 - [Demo](#demo)
 - [Features](#feature)
 - [Getting Started](#getting-started)
+- [Built With](#built-with)
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
 - [Versioning](#versioning)
@@ -22,7 +23,7 @@ This is ta console java application that allows the speed evaluating OWL 2 reaso
 
 ##  📖 About
 
-This is ta console java application that allows the speed evaluating OWL 2 reasoners on a specified ontologies. This application was implemented in the evaluating owl 2 reasoning process for the `ORE 2014` paper.
+This is a console java application that allows the speed evaluating OWL 2 reasoners on a specified ontologies. This application was implemented in the evaluating owl 2 reasoning process for the `ORE 2014` paper.
 
 ### Motivation
 
@@ -98,6 +99,19 @@ DELAY_BETWEEN_ITERATION = 17
 
 - After execution the benchmark results will be in the directory defined as `RESULTS_DIR` in `cfg.ini`. 
 ![The output dir with results](https://github.com/ololx/owl2-reasoners-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-output.png?raw=true)
+
+## 🛠 Built With
+
+- **[OWL API 3.4.10](https://github.com/owlcs/owlapi)** - the Java API for creating, manipulating and serialising OWL Ontologies.
+- **[TREasoner](http://ceur-ws.org/Vol-1015/paper_2.pdf)** - the OWL DL Reasoner implemented in Java.
+- **[FACT++ 1.6.2](https://www.w3.org/2001/sw/wiki/Fact)** - the OWL DL Reasoner implemented in C++.
+- **[JFact](https://github.com/owlcs/jfact)** - the Java port of the FaCT++ OWL DL reasoner;.
+- **[HermiT](https://github.com/phillord/hermit-reasoner)** - the OWL DL Reasoner implemented in Java.
+- **[Pellet](https://github.com/stardog-union/pellet)** - the OWL DL Reasoner implemented in Java.
+- **[MORe](https://www.cs.ox.ac.uk/isg/tools/MORe/)** - the OWL DL Reasoner implemented in Java.
+- **[ELK](https://github.com/liveontologies/elk-reasoner)** - the OWL DL Reasoner implemented in Java.
+- **[APACHE POI](https://poi.apache.org)** - the Java library for reading and writing Microsoft Office binary and OOXML file formats.
+- **[Log4j](https://logging.apache.org/log4j/2.x/)** - the logging facade that may, of course, be used with the Log4j implementation, but may also be used in front of other logging implementations such as Logback.
 
 ## 🎉 Contributing
 

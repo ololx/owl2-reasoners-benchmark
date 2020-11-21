@@ -39,7 +39,7 @@ These pictures demonstrate the benchmark results examples (time in ns).
 ![The log in html](https://github.com/ololx/owl2-reasoners-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-3.png?raw=true)
 
 - The log in console/terminal:
-![The log in console/terminal](https://github.com/ololx/owl2-reasoner-benchmark/blob/assets/demo/owl2-reasoners-benchmark-demo-1.png?raw=true)
+![The log in console/terminal](https://github.com/ololx/owl2-reasoners-benchmark/blob/assets/demo/owl2-reasoner-benchmark-demo-1.png?raw=true)
 
 ## 🎚 Features
 

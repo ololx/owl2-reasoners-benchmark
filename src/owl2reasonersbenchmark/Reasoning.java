@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package owl2reasonersbenchmark;
 
 import TReasoner.TReasoner;
@@ -25,8 +21,11 @@ import uk.ac.manchester.cs.factplusplus.owlapiv3.FaCTPlusPlusReasonerFactory;
 import uk.ac.manchester.cs.jfact.JFactFactory;
 
 /**
+ * The type Reasoning.
  *
- * @author Administrator
+ * @author Alexander A. Kropotin
+ * @project owl2-reasoners-benchmark
+ * @created 25.06.2014 12:12 <p>
  */
 public class Reasoning {
     public boolean consistency;

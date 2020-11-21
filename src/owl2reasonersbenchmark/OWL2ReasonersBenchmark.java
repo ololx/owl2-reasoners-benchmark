@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package owl2reasonersbenchmark;
 
 import java.io.File;
@@ -31,8 +27,11 @@ import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 
 
 /**
+ * The type OWL2 Reasoners Benchmark.
  *
- * @author SheldonCooper
+ * @author Alexander A. Kropotin
+ * @project owl2-reasoners-benchmark
+ * @created 10.03.2014 10:10 <p>
  */
 public class OWL2ReasonersBenchmark {
 
